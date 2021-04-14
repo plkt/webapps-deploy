@@ -1,0 +1,17 @@
+
+
+ ## Generic 
+    "name": "Deploy Node.js to Azure Web App",
+    "description": "Build a Node.js project and deploy it to an Azure Web App.",
+    "creator": "Microsoft Azure",
+    "readme":  "readme.md"
+    "iconName": "image.png" 
+    
+ "workflowtype": "deployment" 
+
+## these fields are dependent on workflow type. For deployment workflow type we expect below properties. 
+    "properties": {
+       "language": "node"
+       "library": "npm"
+       "cloud": "azure"
+    }
